@@ -2,100 +2,79 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #111827;
-    color: #ffffff;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #1f2937;
-}
-
-.logo  {
-    width: 10px;
-    height: 10px;
-    margin: 10px;
-}
-
-
-nav ul {
-    display: flex;
+    color:#FFFDFB;
+    text-decoration: none;
     list-style: none;
+    font-family:'Poppins', sans-serif;
 }
 
-nav ul li {
-    margin-left: 20px;
+body{
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);}
+.logo img{
+    width: 200px;
+    }
+
+.logo span{
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.join-btn {
-    background-color: #36c15d;
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.hero {
+.logo{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 50px;
-    background-color: #111827;
+    justify-content: center;
+    gap: 10px;
+    width: 180px;
 }
 
-.hero-text h2 {
-    font-size: 48px;
-    line-height: 1.2;
-    margin-bottom: 20px;
+
+nav{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+
 }
 
-.hero-text p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.hero-text span {
-    background-color: #00d4ff;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.hero-image img {
-    max-width: 100%;
-    height: auto;
-}
-
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-image {
-        margin-top: 20px;
-    }
-
-    .hero-text h2 {
-        font-size: 36px;
-    }
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    gap: 30px;
+    text-transform: capitalize;
+    flex-direction: row;
 }
 
 .btn{
-background: linear-gradient(90deg, #349054, #57c3f0);
-padding: 10px;
-border-radius: 10px;
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn span{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+     width: 300px;
+    margin-top: 30px;
+}
+
+section{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 100px;
+
+}
+
+.texto{
+    width: 40vw;
+}
+.texto h1{
+    font-size: 3.5rem;
+    font-weight: 100;
 }
